@@ -1,0 +1,27 @@
+{
+  "name": "video-maker-by-robots",
+  "version": "1.0.0",
+  "description": "video maker to youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Truta446/video-maker-by-robots.git"
+  },
+  "author": "Juan Lopes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Truta446/video-maker-by-robots/issues"
+  },
+  "homepage": "https://github.com/Truta446/video-maker-by-robots#readme",
+  "dependencies": {
+    "algorithmia": "^0.3.10",
+    "fs": "0.0.1-security",
+    "googleapis": "^38.0.0",
+    "readline-sync": "^1.4.9",
+    "sbd": "^1.0.15",
+    "watson-developer-cloud": "^3.18.3"
+  }
+}
