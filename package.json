@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/Truta446/video-maker-by-robots/issues"
   },
-  "homepage": "https://github.com/Truta446/video-maker-by-robots#readme"
+  "homepage": "https://github.com/Truta446/video-maker-by-robots#readme",
+  "dependencies": {
+    "algorithmia": "^0.3.10",
+    "googleapis": "^38.0.0",
+    "readline-sync": "^1.4.9",
+    "sbd": "^1.0.15",
+    "watson-developer-cloud": "^3.18.3"
+  }
 }
