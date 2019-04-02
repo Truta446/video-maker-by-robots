@@ -20,6 +20,7 @@
     "algorithmia": "^0.3.10",
     "fs": "0.0.1-security",
     "googleapis": "^38.0.0",
+    "image-downloader": "^3.4.2",
     "readline-sync": "^1.4.9",
     "sbd": "^1.0.15",
     "watson-developer-cloud": "^3.18.3"
