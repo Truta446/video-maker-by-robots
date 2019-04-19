@@ -71,15 +71,21 @@ async function robot() {
     }
 
     async function fetchKeywordsOfAllSentences(content) {
+        const listOfKeywordsToFetch = []
+    
         for (const sentence of content.sentences) {
-            sentence.keywords = await fetchWatsonAndReturnKeywords(sentence.text)
+          listOfKeywordsToFetch.push(
+            fetchWatsonAndReturnKeywords(sentence)
+          )
         }
-    }
-
+    
+        await Promise.all(listOfKeywordsToFetch)
+      }
+    
     async function fetchWatsonAndReturnKeywords(sentence) {
         return new Promise((resolve, reject) => {
             nlu.analyze({
-                text: sentence,
+                text: sentence.text,
                 features: {
                     keywords: {}
                 }
@@ -87,15 +93,17 @@ async function robot() {
                 if (error) {
                     throw error
                 }
-
+    
                 const keywords = response.keywords.map((keyword) => {
                     return keyword.text
                 })
-
+    
+                sentence.keywords = keywords
+    
                 resolve(keywords)
             })
         })
-    }
+    }    
 }
 
 module.exports = robot

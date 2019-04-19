@@ -69,7 +69,7 @@ async function robot() {
 
     async function downloadAndSave(url, fileName) {
         return imageDownloader.image({
-            url, url,
+            url,
             dest: `./content/${fileName}`
         })
     }
@@ -198,7 +198,7 @@ async function robot() {
                     return reject(error)
                 }
 
-                console.log('> Creating YouTube Thumbnail')
+                console.log('> Created YouTube Thumbnail')
                 resolve()
             })
         })
