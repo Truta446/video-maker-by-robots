@@ -198,7 +198,7 @@ async function robot() {
                     return reject(error)
                 }
 
-                console.log('> Creating YouTube Thumbnail')
+                console.log('> Created YouTube Thumbnail')
                 resolve()
             })
         })
