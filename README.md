@@ -3,5 +3,5 @@ Open source project to make automated videos
 
 #### Run Application:
 ```
-node index.js
+npm install ; node index.js
 ```
