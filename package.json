@@ -4,7 +4,9 @@
   "description": "video maker to youtube",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -24,11 +26,13 @@
     "fluent-ffmpeg": "^2.1.2",
     "fs": "0.0.1-security",
     "gm": "^1.23.1",
-    "googleapis": "^38.0.0",
+    "googleapis": "^39.1.0",
     "image-downloader": "^3.4.2",
     "readline-sync": "^1.4.9",
     "sbd": "^1.0.15",
     "videoshow": "^0.1.11",
-    "watson-developer-cloud": "^3.18.3"
-  }
+    "watson-developer-cloud": "^3.18.3",
+    "snyk": "^1.279.1"
+  },
+  "snyk": true
 }

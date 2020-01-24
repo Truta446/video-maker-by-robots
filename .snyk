@@ -1,0 +1,31 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - googleapis > google-auth-library > https-proxy-agent:
+        patched: '2020-01-24T12:11:01.356Z'
+    - googleapis > google-auth-library > gaxios > https-proxy-agent:
+        patched: '2020-01-24T12:11:01.356Z'
+    - googleapis > googleapis-common > gaxios > https-proxy-agent:
+        patched: '2020-01-24T12:11:01.356Z'
+    - googleapis > googleapis-common > google-auth-library > https-proxy-agent:
+        patched: '2020-01-24T12:11:01.356Z'
+    - googleapis > google-auth-library > gcp-metadata > gaxios > https-proxy-agent:
+        patched: '2020-01-24T12:11:01.356Z'
+    - googleapis > google-auth-library > gtoken > gaxios > https-proxy-agent:
+        patched: '2020-01-24T12:11:01.356Z'
+    - googleapis > googleapis-common > google-auth-library > gaxios > https-proxy-agent:
+        patched: '2020-01-24T12:11:01.356Z'
+    - googleapis > googleapis-common > google-auth-library > gcp-metadata > gaxios > https-proxy-agent:
+        patched: '2020-01-24T12:11:01.356Z'
+    - googleapis > googleapis-common > google-auth-library > gtoken > gaxios > https-proxy-agent:
+        patched: '2020-01-24T12:11:01.356Z'
+  SNYK-JS-LODASH-450202:
+    - fluent-ffmpeg > async > lodash:
+        patched: '2020-01-24T12:11:01.356Z'
+    - watson-developer-cloud > async > lodash:
+        patched: '2020-01-24T12:11:01.356Z'
+    - videoshow > fluent-ffmpeg > async > lodash:
+        patched: '2020-01-24T12:11:01.356Z'
