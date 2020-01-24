@@ -20,7 +20,7 @@
   "homepage": "https://github.com/Truta446/video-maker-by-robots#readme",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.0.17",
-    "@ffprobe-installer/ffprobe": "^1.0.10",
+    "@ffprobe-installer/ffprobe": "^1.0.12",
     "algorithmia": "^0.3.10",
     "express": "^4.16.4",
     "fluent-ffmpeg": "^2.1.2",
