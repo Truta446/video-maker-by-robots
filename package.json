@@ -30,7 +30,7 @@
     "image-downloader": "^3.4.2",
     "readline-sync": "^1.4.9",
     "sbd": "^1.0.15",
-    "videoshow": "^0.1.11",
+    "videoshow": "^0.1.12",
     "watson-developer-cloud": "^3.18.3",
     "snyk": "^1.279.1"
   },
