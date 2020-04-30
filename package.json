@@ -32,7 +32,7 @@
     "sbd": "^1.0.15",
     "videoshow": "^0.1.11",
     "watson-developer-cloud": "^3.18.3",
-    "snyk": "^1.279.1"
+    "snyk": "^1.316.1"
   },
   "snyk": true
 }
