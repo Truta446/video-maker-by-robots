@@ -31,7 +31,7 @@
     "readline-sync": "^1.4.9",
     "sbd": "^1.0.15",
     "videoshow": "^0.1.11",
-    "watson-developer-cloud": "^3.18.3",
+    "watson-developer-cloud": "^4.0.1",
     "snyk": "^1.279.1"
   },
   "snyk": true
