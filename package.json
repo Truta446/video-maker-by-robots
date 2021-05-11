@@ -29,7 +29,7 @@
     "googleapis": "^39.1.0",
     "image-downloader": "^3.4.2",
     "readline-sync": "^1.4.9",
-    "sbd": "^1.0.15",
+    "sbd": "^1.0.19",
     "videoshow": "^0.1.11",
     "watson-developer-cloud": "^3.18.3",
     "snyk": "^1.279.1"
