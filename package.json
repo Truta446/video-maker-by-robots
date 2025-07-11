@@ -25,14 +25,14 @@
     "express": "^4.16.4",
     "fluent-ffmpeg": "^2.1.2",
     "fs": "0.0.1-security",
-    "gm": "^1.23.1",
+    "gm": "^1.25.1",
     "googleapis": "^39.1.0",
     "image-downloader": "^3.4.2",
     "readline-sync": "^1.4.9",
-    "sbd": "^1.0.15",
+    "sbd": "^1.0.19",
     "videoshow": "^0.1.11",
-    "watson-developer-cloud": "^3.18.3",
-    "snyk": "^1.279.1"
+    "watson-developer-cloud": "^4.0.1",
+    "snyk": "^1.1297.3"
   },
   "snyk": true
 }
